@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#0f766e"/>
+  <!-- mortarboard cap, simplified top-down view -->
+  <polygon points="256,152 400,208 256,264 112,208" fill="#ffffff"/>
+  <polygon points="256,264 360,222 360,268 256,320 152,268 152,222" fill="#e2e8f0"/>
+  <circle cx="400" cy="208" r="10" fill="#fbbf24"/>
+  <path d="M400 208 L400 296" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="400" cy="304" r="12" fill="#fbbf24"/>
+</svg>

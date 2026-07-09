@@ -1,0 +1,84 @@
+{
+  "app": { "name": "ISPITS – Prépa", "tagline": "Votre plateforme de préparation au concours" },
+  "subject": { "svt": "SVT", "fr": "Français" },
+  "nav": { "dashboard": "Accueil", "practice": "Entraînement", "simulation": "Simulation", "review": "Révision", "settings": "Réglages" },
+  "common": {
+    "loading": "Chargement...",
+    "start": "Démarrer",
+    "next": "Suivant",
+    "finish": "Terminer",
+    "retry": "Recommencer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "of": "sur",
+    "all": "Tous",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile"
+  },
+  "dashboard": {
+    "welcome": "Bon retour 👋",
+    "totalAnswered": "Questions traitées",
+    "accuracy": "Taux de réussite",
+    "streak": "Jours consécutifs",
+    "mastery": "Niveau de maîtrise",
+    "progressChart": "Évolution des performances",
+    "noDataYet": "Commencez une session pour voir votre progression ici",
+    "weakestUnits": "Points à retravailler",
+    "startPractice": "Commencer l'entraînement"
+  },
+  "practice": {
+    "chooseSubject": "Choisissez la matière",
+    "difficulty": "Niveau de difficulté",
+    "unit": "Leçon",
+    "startSession": "Démarrer la session",
+    "questionOf": "Question {{current}} sur {{total}}",
+    "correctFeedback": "Bonne réponse",
+    "incorrectFeedback": "Réponse incorrecte",
+    "explanationTitle": "Explication",
+    "aiExplainCta": "Explication approfondie par l'IA",
+    "aiLoading": "Préparation en cours...",
+    "yourScore": "Votre score",
+    "reviewMistakesCta": "Vos erreurs ont été ajoutées à la révision"
+  },
+  "simulation": {
+    "introTitle": "Simulation fidèle au format du concours",
+    "introBody": "Cette session reproduit le format réel : une matière scientifique (coefficient 2) puis le français (coefficient 1), chacune chronométrée séparément, notées sur 20 avec un seuil éliminatoire à 5/20.",
+    "sectionOf": "Partie {{current}} sur {{total}}",
+    "timeRemaining": "Temps restant",
+    "combinedScore": "Moyenne pondérée",
+    "eliminatory": "Attention : cette note est inférieure à 5/20, ce qui serait éliminatoire au concours réel",
+    "startSimulation": "Démarrer la simulation",
+    "instructionsTitle": "Instructions au candidat",
+    "instructionsList": [
+      "L'examen comporte deux parties distinctes : une matière scientifique (coefficient 2), puis le français (coefficient 1).",
+      "Chaque partie a son propre temps imparti ; le compte à rebours démarre dès le début de cette partie.",
+      "Chaque question n'a qu'une seule bonne réponse parmi 4 propositions.",
+      "Vous pouvez changer votre réponse à une question tant que vous n'êtes pas passé à la question suivante.",
+      "Aucune indication sur l'exactitude de vos réponses ne sera affichée pendant l'examen — le résultat n'apparaît qu'à la fin, comme dans l'examen réel.",
+      "Une fois le temps d'une partie écoulé, le passage à la partie suivante (ou aux résultats) est automatique."
+    ],
+    "instructionsDisclaimer": "Ces instructions reprennent un format standard des QCM de concours ; elles ne sont pas le texte officiel de l'ISPITS — consultez l'avis officiel de l'année en cours pour le détail exact.",
+    "instructionsConfirm": "J'ai compris, commencer la première partie"
+  },
+  "review": {
+    "title": "Liste de révision",
+    "empty": "Aucune question à réviser pour l'instant — bravo !",
+    "missStreak": "Ratée {{count}} fois de suite"
+  },
+  "settings": {
+    "language": "Langue",
+    "theme": "Apparence",
+    "dark": "Sombre",
+    "light": "Clair",
+    "aiProvider": "Fournisseur d'IA",
+    "apiKey": "Clé API",
+    "apiKeyHelp": "Votre clé est utilisée directement depuis votre appareil vers le fournisseur choisi ; elle n'est envoyée à aucun autre serveur.",
+    "cloudSync": "Synchronisation optionnelle si une connexion est disponible",
+    "backupExport": "Exporter une sauvegarde (JSON)",
+    "backupImport": "Importer une sauvegarde",
+    "resetData": "Réinitialiser toutes les données",
+    "resetConfirm": "Toute votre progression locale sera supprimée. Continuer ?"
+  }
+}

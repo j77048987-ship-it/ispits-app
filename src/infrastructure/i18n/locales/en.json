@@ -1,0 +1,84 @@
+{
+  "app": { "name": "ISPITS Prep", "tagline": "Your exam-prep companion" },
+  "subject": { "svt": "Life & Earth Sciences", "fr": "French" },
+  "nav": { "dashboard": "Home", "practice": "Practice", "simulation": "Simulation", "review": "Review", "settings": "Settings" },
+  "common": {
+    "loading": "Loading...",
+    "start": "Start",
+    "next": "Next",
+    "finish": "Finish",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "of": "of",
+    "all": "All",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "dashboard": {
+    "welcome": "Welcome back 👋",
+    "totalAnswered": "Questions answered",
+    "accuracy": "Accuracy",
+    "streak": "Day streak",
+    "mastery": "Mastery level",
+    "progressChart": "Progress over time",
+    "noDataYet": "Start a practice session to see your progress here",
+    "weakestUnits": "Needs review",
+    "startPractice": "Start practicing"
+  },
+  "practice": {
+    "chooseSubject": "Choose a subject",
+    "difficulty": "Difficulty",
+    "unit": "Lesson",
+    "startSession": "Start session",
+    "questionOf": "Question {{current}} of {{total}}",
+    "correctFeedback": "Correct",
+    "incorrectFeedback": "Incorrect",
+    "explanationTitle": "Explanation",
+    "aiExplainCta": "Get a deeper AI explanation",
+    "aiLoading": "Thinking...",
+    "yourScore": "Your score",
+    "reviewMistakesCta": "Missed questions were added to your review list"
+  },
+  "simulation": {
+    "introTitle": "Simulation matching the real exam format",
+    "introBody": "This mirrors the real format: one science subject (coefficient 2) then French (coefficient 1), each timed separately, scored out of 20 with a failing threshold at 5/20.",
+    "sectionOf": "Section {{current}} of {{total}}",
+    "timeRemaining": "Time remaining",
+    "combinedScore": "Weighted average",
+    "eliminatory": "Note: this score is below 5/20, which would be disqualifying in the real exam",
+    "startSimulation": "Start simulation",
+    "instructionsTitle": "Candidate instructions",
+    "instructionsList": [
+      "The exam has two separate sections: a science subject (coefficient 2), then French (coefficient 1).",
+      "Each section has its own time limit; the countdown starts as soon as that section begins.",
+      "Each question has exactly one correct answer out of 4 options.",
+      "You can change your answer to a question as long as you haven't moved to the next question yet.",
+      "No indication of whether your answers are correct will be shown during the exam — the result only appears at the end, just like the real exam.",
+      "Once a section's time runs out, moving to the next section (or to results) happens automatically."
+    ],
+    "instructionsDisclaimer": "These instructions follow a standard multiple-choice exam format; they are not ISPITS's official wording — check the current year's official notice for exact details.",
+    "instructionsConfirm": "I understand, start the first section"
+  },
+  "review": {
+    "title": "Review list",
+    "empty": "Nothing to review right now — nice work!",
+    "missStreak": "Missed {{count}} times in a row"
+  },
+  "settings": {
+    "language": "Language",
+    "theme": "Appearance",
+    "dark": "Dark",
+    "light": "Light",
+    "aiProvider": "AI provider",
+    "apiKey": "API key",
+    "apiKeyHelp": "Your key is used directly from your device to the chosen provider only; it is never sent anywhere else.",
+    "cloudSync": "Optional sync when a connection is available",
+    "backupExport": "Export a backup (JSON)",
+    "backupImport": "Import a backup",
+    "resetData": "Reset all data",
+    "resetConfirm": "This will delete all your local progress. Continue?"
+  }
+}
